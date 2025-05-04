@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/ojas_hero.jpeg";
+// import { Ojas_Awachat_Resume } from "./public";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -28,11 +29,22 @@ const Hero = () => {
             >
               Full Stack Developer
             </motion.span>
-            <motion.p
+            <motion.a
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              href="/Ojas_Awachat_Resume.pdf"
+              download
+              className="inline-block max-w-40 rounded-2xl bg-purple-400 px-6 py-2 mt-5 text-center text-2xl font-medium tracking-tighter text-slate-900 transition hover:bg-purple-500 hover:shadow-lg"
+            >
+              Resume
+            </motion.a>
+
+            <motion.p
+              variants={container(1.5)}
+              initial="hidden"
+              animate="visible"
+              className="my-4 max-w-xl py-6 text-lg leading-relaxed tracking-normal font-light"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -46,6 +58,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
               alt="ProfilePic"
+              className="rounded-full"
             />
           </div>
         </div>
