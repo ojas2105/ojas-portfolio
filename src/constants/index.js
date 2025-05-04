@@ -1,76 +1,108 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full-stack developer with 1.9 years of hands-on experience in building robust, scalable web applications. My expertise spans a range of technologies including React, Vue, PHP, Elementor, WordPress, MySQL, jQuery, and SaaS.
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+Over the course of my career, I have:
+
+Developed 30+ features across multiple plugins
+
+Successfully implemented two plugins as SaaS-based solutions
+
+Merged over 200+ pull requests
+
+Released more than 20 versions of themes and plugins
+
+Resolved 75+ critical bugs efficiently and effectively
+
+Completely revamped two plugins and designed the user interface for a SaaS-based project
+
+My goal is to leverage this experience to create innovative, high-performance solutions that drive business growth and deliver outstanding user experiences.`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1.9 years of professional experience. My journey in full stack development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "September 2023 - Present",
+    role: "Software Developer",
+    company: "HummingBird Web Solutions",
+    description: `Managed two plugins and a SaaS architecture while developing and maintaining web applications using JavaScript,Vue.js,Php,MySql,Wordpress. Implemented RESTful APIs and integrated them with MySQL databases. Collaborated closely with stakeholders to define project requirements and timelines. Integrated numerous features and led a successful revamp that contributed to acquiring over 1,000 free plugin installations and 2,000+ paid customers.`,
+    technologies: [
+      "Javascript",
+      "React.js",
+      "Vue.js",
+      "MySql",
+      "PHP",
+      "Wordpress",
+      "Elementor",
+      "SAAS",
+    ],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "November 2022 - August 2023",
+    role: "Technical Trainer",
+    company: "Unisoft Technologies",
+    description: `Trained over 450+ students in the latest technologies, helping them become stronger programmers both technically and logically by explaining each concept in detail.`,
+    technologies: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "C/C++",
+      "Python",
+      "Machine Learning",
+    ],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Feburary 2022 - April 2023",
+    role: "Machine Learning Intern",
+    company: "Acmegrade",
+    description: `Trained and modeled the huge chunks of data and appliy the unsupervised machine learning algorithm that helps to generate the analytics report that helps to find the variation about data`,
+    technologies: [
+      "Python",
+      "Statistics",
+      "Tensorflow",
+      "Keras",
+      "OpenCV",
+      "Seaborn",
+      "YOLOv5",
+      "Pandas",
+      "Numpy",
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Deep Learning",
+      "Exploratory Data Analysis",
+    ],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Cookie Consent WordPress Plugin",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Engineered a custom WordPress plugin designed to manage user cookie consent, achieving full compliance with GDPR and improving site trust scores by 40%. Increased user privacy through customizable banners that empowered users.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Vue.js",
+      "Bootstrap",
+      "MySql",
+      "Php",
+      "Javascript",
+      "jQuery",
+    ],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "React", "Framer Motion", "Tailwind CSS"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Pune Maharashtra, India",
+  phoneNo: "+91 8010014086",
+  email: "awachatojas@gmail.com",
 };
