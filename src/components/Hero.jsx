@@ -35,7 +35,7 @@ const Hero = () => {
               animate="visible"
               href="/Ojas_Awachat_Resume.pdf"
               download
-              className="inline-block max-w-40 rounded-2xl bg-purple-400 px-6 py-2 mt-5 text-center text-2xl font-medium tracking-tighter text-slate-900 transition hover:bg-purple-500 hover:shadow-lg"
+              className="inline-block max-w-32 sm:max-w-40 rounded-xl sm:rounded-2xl bg-purple-400 px-4 sm:px-6 py-1.5 sm:py-2 mt-5 text-center text-xl sm:text-2xl font-medium tracking-tight sm:tracking-tighter text-slate-900 transition hover:bg-purple-500 hover:shadow-lg"
             >
               Resume
             </motion.a>
